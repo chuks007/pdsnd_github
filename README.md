@@ -5,7 +5,7 @@
 Bike sharing data analysis
 
 ### Description
-This project performs descriptive analysis on a bike sharing dataset
+This project performs descriptive analysis on a bike sharing dataset. Statistic like most frequent stations and most common birth year were computed.
 
 ### Files used
 chicago.csv
