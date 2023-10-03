@@ -123,6 +123,7 @@ def time_stats(df):
     month = df['month'].value_counts().index[0]
     
     print()
+    print()
     print('----- Most Common Month -----')
     print(month)
 
@@ -142,8 +143,8 @@ def time_stats(df):
     print('----- Most Common Start Hour -----')
     print(hour)
 
-
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print()
+    print(f"This took {time.time() - start_time} seconds.")
     print_lines()
     print('-'*40)
 
