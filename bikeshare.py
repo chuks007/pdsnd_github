@@ -142,8 +142,8 @@ def time_stats(df):
     print('----- Most Common Start Hour -----')
     print(hour)
 
-
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print()
+    print(f"This took {time.time() - start_time} seconds.")
     print_lines()
     print('-'*40)
 
