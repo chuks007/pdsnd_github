@@ -122,6 +122,7 @@ def time_stats(df):
     month = df['month'].value_counts().index[0]
     
     print()
+    print()
     print('----- Most Common Month -----')
     print(month)
 
