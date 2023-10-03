@@ -72,6 +72,7 @@ def load_data(city, month, day):
         months_dict = {'01': 'january', '02': 'february', '03': 'march', '04':'april', '05': 'may', '06': 'june'}
 
         df['month'] = df['Start Time'].dt.strftime('%m')
+        # the map function matches each month digit to its name
         df['month'] = df['month'].map(months_dict)
 
         # Create day of week (dow) column
